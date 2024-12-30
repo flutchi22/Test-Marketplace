@@ -1,0 +1,35 @@
+{
+  "name": "cloverseeds-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.7",
+    "@mui/styles": "^5.2.3",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "dev-debugger-vite": "^1.2.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "react-timer-hook": "^3.0.5",
+    "web-vitals": "^2.1.3"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "rollup-plugin-polyfill-node": "^0.13.0",
+    "vite": "^5.0.11"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  }
+}
